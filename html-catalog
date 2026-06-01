@@ -1,0 +1,593 @@
+            Каталог
+          </button>
+          <button type="button" class="nav-tab" data-tab="search">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+              <circle cx="11" cy="11" r="7" fill="none" stroke-width="2" />
+              <path d="M20 20l-3-3" stroke-linecap="round" stroke-width="2" />
+            </svg>
+            Поиск
+          </button>
+          <button type="button" class="nav-tab" data-tab="profile">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+              <path d="M12 12a4 4 0 100-8 4 4 0 000 8z" />
+              <path d="M4 21a8 8 0 0116 0" stroke-linecap="round" />
+            </svg>
+            Профиль
+          </button>
+          <button type="button" class="nav-tab" data-tab="cart">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" aria-hidden="true">
+              <circle cx="9" cy="20" r="1.5" fill="currentColor" stroke="none" />
+              <circle cx="18" cy="20" r="1.5" fill="currentColor" stroke="none" />
+              <path d="M3 4h2l1 12h12l2-9H6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            Корзина
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main-area">
+      <!-- Splash -->
+      <section class="screen screen--splash is-active" id="screen-splash" aria-label="Приветствие">
+        <div class="logo-ring">
+          <img src="https://1s4oyld5dc.ucarecd.net/0aa8e611-9a34-4030-85a4-ef3f90ed3b5a/" alt="NIMMI Logo" />
+        </div>
+        <button type="button" class="btn-go" data-action="enter">Погнали</button>
+      </section>
+
+      <!-- Каталог -->
+      <section class="screen" id="screen-catalog" aria-label="Каталог">
+        <header class="page-head page-head--center">
+          <h2>Каталог</h2>
+        </header>
+        <div class="scroll">
+          <div class="grid-cats">
+            <button type="button" class="cat-card" data-nav="fruits">
+              <img class="cat-thumb" src="https://i.pinimg.com/736x/fa/5a/1b/fa5a1b50491bd61fb2909d30b82ca252.jpg" alt="Фрукты" loading="lazy" />
+              <div class="cat-title-h">Фрукты</div>
+            </button>
+            <button type="button" class="cat-card" data-nav="vegetables">
+              <img class="cat-thumb" src="https://i1-c.pinimg.com/1200x/f9/ce/6b/f9ce6b6ce9140da9179756227f615535.jpg" alt="Овощи" loading="lazy" />
+              <div class="cat-title-h">Овощи</div>
+            </button>
+            <button type="button" class="cat-card" data-nav="bakery">
+              <img class="cat-thumb" src="https://i1-c.pinimg.com/1200x/a8/25/d4/a825d4379809657ef57af5d3f45aa825.jpg" alt="Выпечка" loading="lazy" />
+              <div class="cat-title-h">Выпечка</div>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Фрукты -->
+      <section class="screen" id="screen-fruits" aria-label="Фрукты">
+        <header class="page-head">
+          <button type="button" class="icon-btn" data-back="catalog" aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <h2>Фрукты</h2>
+        </header>
+        <div class="scroll">
+          <div class="grid-rows">
+            <button type="button" class="list-row" data-nav="apples">
+              <img class="row-thumb" src="https://i1-c.pinimg.com/736x/74/7a/57/747a579e94b2f6f082d9d4147365f942.jpg" alt="" loading="lazy" />
+              <span class="row-text">Яблоки</span>
+            </button>
+            <button type="button" class="list-row" data-nav="bananasSection">
+              <img class="row-thumb" src="https://i1-c.pinimg.com/1200x/7b/25/69/7b256981452a51c3af7461092b2ad6dd.jpg" alt="" loading="lazy" />
+              <span class="row-text">Бананы</span>
+            </button>
+            <button type="button" class="list-row" data-nav="pears">
+              <img class="row-thumb" src="https://i.pinimg.com/736x/5d/5e/95/5d5e95a9d263532c7bcc5e9a40a6a8a8.jpg" alt="" loading="lazy" />
+              <span class="row-text">Груши</span>
+            </button>
+            <button type="button" class="list-row" data-nav="cherry">
+              <img class="row-thumb" src="https://i1-c.pinimg.com/736x/3a/6e/6e/3a6e6e6ac6532ed132aae26c1f25f06b.jpg" alt="" loading="lazy" />
+              <span class="row-text">Черешня</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Яблоки -->
+      <section class="screen" id="screen-apples" aria-label="Яблоки">
+        <header class="page-head">
+          <button type="button" class="icon-btn" data-back="fruits" aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <h2>Яблоки</h2>
+        </header>
+        <div class="scroll">
+          <div class="grid-rows">
+            <button type="button" class="list-row" data-nav="product" data-product="gala">
+              <img class="row-thumb" src="https://i.pinimg.com/736x/e6/68/84/e66884c2e2c257fac533eaa4f24624ab.jpg" alt="" loading="lazy" />
+              <span class="row-text">Гала</span>
+              <span class="row-meta">350 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="golden">
+              <img class="row-thumb" src="https://i1-c.pinimg.com/1200x/f1/6e/55/f16e5557bcf778db887703cc9db27f30.jpg" alt="" loading="lazy" />
+              <span class="row-text">Голден</span>
+              <span class="row-meta">400 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="antonovka">
+              <img class="row-thumb" src="https://i1-c.pinimg.com/736x/ed/4f/ee/ed4feed9ac3d7631e24aa3456bcbf7e3.jpg" alt="" loading="lazy" />
+              <span class="row-text">Антоновка</span>
+              <span class="row-meta">380 р.</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- БАНАНЫ -->
+      <section class="screen" id="screen-bananasSection" aria-label="Бананы">
+        <header class="page-head">
+          <button type="button" class="icon-btn" data-back="fruits" aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <h2>Бананы</h2>
+        </header>
+        <div class="scroll">
+          <div class="grid-rows">
+            <button type="button" class="list-row" data-nav="product" data-product="bananaCavendish">
+              <img class="row-thumb" src="https://i.pinimg.com/736x/05/db/67/05db67e604541d3df9ea3706260db17d.jpg" alt="" loading="lazy" />
+              <span class="row-text">Кавендиш</span>
+              <span class="row-meta">120 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="bananaMini">
+              <img class="row-thumb" src="https://1s4oyld5dc.ucarecd.net/214760d5-2bfb-4061-bcde-a378875c579d/" alt="" loading="lazy" />
+              <span class="row-text">Мини-бананы</span>
+              <span class="row-meta">180 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="bananaRed">
+              <img class="row-thumb" src="https://1s4oyld5dc.ucarecd.net/52bdda88-1951-4bac-925d-eac3daa9da8f/" alt="" loading="lazy" />
+              <span class="row-text">Красные бананы</span>
+              <span class="row-meta">250 р.</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Груши -->
+      <section class="screen" id="screen-pears" aria-label="Груши">
+        <header class="page-head">
+          <button type="button" class="icon-btn" data-back="fruits" aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <h2>Груши</h2>
+        </header>
+        <div class="scroll">
+          <div class="grid-rows">
+            <button type="button" class="list-row" data-nav="product" data-product="conference">
+              <img class="row-thumb" src="https://avatars.mds.yandex.net/i?id=5a932a1a3eec507f7108b98897ef01f55920642d-10027404-images-thumbs&n=13" alt="" loading="lazy" />
+              <span class="row-text">Конференция</span>
+              <span class="row-meta">250 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="williams">
+              <img class="row-thumb" src="https://media.vprok.ru/products/x1400/ii/7z/koxqrpy346a2l2kk6ioxwhuw27mu7zii.jpeg" alt="" loading="lazy" />
+              <span class="row-text">Вильямс</span>
+              <span class="row-meta">280 р.</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Черешня -->
+      <section class="screen" id="screen-cherry" aria-label="Черешня">
+        <header class="page-head">
+          <button type="button" class="icon-btn" data-back="fruits" aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <h2>Черешня</h2>
+        </header>
+        <div class="scroll">
+          <div class="grid-rows">
+            <button type="button" class="list-row" data-nav="product" data-product="cherrySweet">
+              <img class="row-thumb" src="https://avatars.mds.yandex.net/i?id=1cb9c2f119df9888cb95ddea5718babb98d02017-5876445-images-thumbs&n=13" alt="" loading="lazy" />
+              <span class="row-text">Сладкая черешня</span>
+              <span class="row-meta">320 р.</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Овощи -->
+      <section class="screen" id="screen-vegetables" aria-label="Овощи">
+        <header class="page-head">
+          <button type="button" class="icon-btn" data-back="catalog" aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <h2>Овощи</h2>
+        </header>
+        <div class="scroll">
+          <div class="grid-rows">
+            <button type="button" class="list-row" data-nav="cucumbersSection">
+              <img class="row-thumb" src="https://i1-c.pinimg.com/736x/e9/33/6e/e9336ef79ce135e84a29ee4b5c1dd76a.jpg" alt="" loading="lazy" />
+              <span class="row-text">Огурцы</span>
+            </button>
+            <button type="button" class="list-row" data-nav="tomatoesSection">
+              <img class="row-thumb" src="https://i1-c.pinimg.com/736x/2f/d4/51/2fd4513439facfd4ec39f7a47b837cf3.jpg" alt="" loading="lazy" />
+              <span class="row-text">Помидоры</span>
+            </button>
+            <button type="button" class="list-row" data-nav="mushrooms">
+              <img class="row-thumb" src="https://i.pinimg.com/736x/6c/c2/80/6cc280869b9254182635076f425ef203.jpg" alt="" loading="lazy" />
+              <span class="row-text">Грибы</span>
+            </button>
+            <button type="button" class="list-row" data-nav="onionsSection">
+              <img class="row-thumb" src="https://i1-c.pinimg.com/736x/5b/6f/40/5b6f4020ad3a12d90747dc1843c25807.jpg" alt="" loading="lazy" />
+              <span class="row-text">Лук</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ОГУРЦЫ -->
+      <section class="screen" id="screen-cucumbersSection" aria-label="Огурцы">
+        <header class="page-head">
+          <button type="button" class="icon-btn" data-back="vegetables" aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <h2>Огурцы</h2>
+        </header>
+        <div class="scroll">
+          <div class="grid-rows">
+            <button type="button" class="list-row" data-nav="product" data-product="cucumberFresh">
+              <img class="row-thumb" src="https://images.unsplash.com/photo-1449300079323-02e209d9d3a6?w=200&h=200&fit=crop" alt="" loading="lazy" />
+              <span class="row-text">Свежие огурцы</span>
+              <span class="row-meta">90 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="cucumberPickled">
+              <img class="row-thumb" src="https://1s4oyld5dc.ucarecd.net/8ad33289-8021-4446-ad53-fd37a3edc75d/" alt="" loading="lazy" />
+              <span class="row-text">Солёные огурцы</span>
+              <span class="row-meta">150 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="cucumberLong">
+              <img class="row-thumb" src="https://1s4oyld5dc.ucarecd.net/dc7b8873-80a8-46d2-ab8d-92a043024d47/" alt="" loading="lazy" />
+              <span class="row-text">Длинноплодные</span>
+              <span class="row-meta">120 р.</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ПОМИДОРЫ -->
+      <section class="screen" id="screen-tomatoesSection" aria-label="Помидоры">
+        <header class="page-head">
+          <button type="button" class="icon-btn" data-back="vegetables" aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <h2>Помидоры</h2>
+        </header>
+        <div class="scroll">
+          <div class="grid-rows">
+            <button type="button" class="list-row" data-nav="product" data-product="tomatoCherry">
+              <img class="row-thumb" src="https://1s4oyld5dc.ucarecd.net/65b6d35b-8210-4683-9299-c8f595042235/" alt="" loading="lazy" />
+              <span class="row-text">Черри</span>
+              <span class="row-meta">220 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="tomatoBeef">
+              <img class="row-thumb" src="https://1s4oyld5dc.ucarecd.net/22b51268-d51c-41db-9528-a081b86dc3d0/" alt="" loading="lazy" />
+              <span class="row-text">Биф-томаты</span>
+              <span class="row-meta">300 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="tomatoPlum">
+              <img class="row-thumb" src="https://1s4oyld5dc.ucarecd.net/e76456de-ce19-4abf-82af-6c9d5a00c3b4/" alt="" loading="lazy" />
+              <span class="row-text">Сливовидные</span>
+              <span class="row-meta">180 р.</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Грибы -->
+      <section class="screen" id="screen-mushrooms" aria-label="Грибы">
+        <header class="page-head">
+          <button type="button" class="icon-btn" data-back="vegetables" aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <h2>Грибы</h2>
+        </header>
+        <div class="scroll">
+          <div class="grid-rows">
+            <button type="button" class="list-row" data-nav="product" data-product="opata">
+              <img class="row-thumb" src="https://i1-c.pinimg.com/736x/16/9b/a0/169ba053c9c381295a66e14c987f8735.jpg" alt="" loading="lazy" />
+              <span class="row-text">Опята</span>
+              <span class="row-meta">450 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="chanterelle">
+              <img class="row-thumb" src="https://i1-c.pinimg.com/1200x/6e/6a/3e/6e6a3e735932d4de17d0de3efac77965.jpg" alt="" loading="lazy" />
+              <span class="row-text">Лисички</span>
+              <span class="row-meta">520 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="fungus">
+              <div class="row-thumb row-thumb--emoji" aria-hidden="true">🍄</div>
+              <span class="row-text">Фунгус</span>
+              <span class="row-meta">2100 р.</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ЛУК -->
+      <section class="screen" id="screen-onionsSection" aria-label="Лук">
+        <header class="page-head">
+          <button type="button" class="icon-btn" data-back="vegetables" aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <h2>Лук</h2>
+        </header>
+        <div class="scroll">
+          <div class="grid-rows">
+            <button type="button" class="list-row" data-nav="product" data-product="onionYellow">
+              <img class="row-thumb" src="https://1s4oyld5dc.ucarecd.net/a83726f3-9553-49ca-91bd-9d808638135b/" alt="" loading="lazy" />
+              <span class="row-text">Репчатый жёлтый</span>
+              <span class="row-meta">60 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="onionRed">
+              <img class="row-thumb" src="https://1s4oyld5dc.ucarecd.net/699d8050-dddb-4d35-8619-bdd676205031/" alt="" loading="lazy" />
+              <span class="row-text">Красный лук</span>
+              <span class="row-meta">100 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="onionGreen">
+              <img class="row-thumb" src="https://1s4oyld5dc.ucarecd.net/97fb1816-5fb9-4289-9988-40b68edb96bc/" alt="" loading="lazy" />
+              <span class="row-text">Зелёный лук</span>
+              <span class="row-meta">70 р.</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Выпечка -->
+      <section class="screen" id="screen-bakery" aria-label="Выпечка">
+        <header class="page-head">
+          <button type="button" class="icon-btn" data-back="catalog" aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <h2>Выпечка</h2>
+        </header>
+        <div class="scroll">
+          <div class="grid-rows">
+            <button type="button" class="list-row" data-nav="muffinsSection">
+              <img class="row-thumb" src="https://i.pinimg.com/736x/cb/ad/ed/cbadedb7c7a8fee6271d9123a105c4e2.jpg" alt="Маффины" loading="lazy" />
+              <span class="row-text">Маффины</span>
+            </button>
+            <button type="button" class="list-row" data-nav="pastry">
+              <img class="row-thumb" src="https://i1-c.pinimg.com/736x/9a/14/a7/9a14a7f1789f9d8390f9d050cd2f142e.jpg" alt="" loading="lazy" />
+              <span class="row-text">Пирожные</span>
+            </button>
+            <button type="button" class="list-row" data-nav="piesSection">
+              <div class="row-thumb row-thumb--emoji" aria-hidden="true">🥧</div>
+              <span class="row-text">Пироги</span>
+            </button>
+            <button type="button" class="list-row" data-nav="puffSection">
+              <div class="row-thumb row-thumb--emoji" aria-hidden="true">🥐</div>
+              <span class="row-text">Слойки</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- МАФФИНЫ -->
+      <section class="screen" id="screen-muffinsSection" aria-label="Маффины">
+        <header class="page-head">
+          <button type="button" class="icon-btn" data-back="bakery" aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <h2>Маффины</h2>
+        </header>
+        <div class="scroll">
+          <div class="grid-rows">
+            <button type="button" class="list-row" data-nav="product" data-product="muffinChocolate">
+              <img class="row-thumb" src="https://1s4oyld5dc.ucarecd.net/dba707df-d7b3-4559-b873-a4a125b81c03/" alt="" loading="lazy" />
+              <span class="row-text">Шоколадный</span>
+              <span class="row-meta">120 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="muffinBlueberry">
+              <img class="row-thumb" src="https://1s4oyld5dc.ucarecd.net/d3b712c1-9d3e-4030-96e7-5b860eae5e17/" alt="" loading="lazy" />
+              <span class="row-text">Черничный</span>
+              <span class="row-meta">130 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="muffinVanilla">
+              <img class="row-thumb" src="https://1s4oyld5dc.ucarecd.net/979859b3-bfea-464c-8f98-158d885fde54/" alt="" loading="lazy" />
+              <span class="row-text">Ванильный</span>
+              <span class="row-meta">110 р.</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Пирожные -->
+      <section class="screen" id="screen-pastry" aria-label="Пирожные">
+        <header class="page-head">
+          <button type="button" class="icon-btn" data-back="bakery" aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <h2>Пирожные</h2>
+        </header>
+        <div class="scroll">
+          <div class="grid-rows">
+            <button type="button" class="list-row" data-nav="product" data-product="beze">
+              <img class="row-thumb" src="https://i.pinimg.com/736x/82/a7/88/82a788602c64c32de29bcadc999c29fc.jpg" alt="" loading="lazy" />
+              <span class="row-text">Безе</span>
+              <span class="row-meta">210 р.</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- ПИРОГИ -->
+      <section class="screen" id="screen-piesSection" aria-label="Пироги">
+        <header class="page-head">
+          <button type="button" class="icon-btn" data-back="bakery" aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <h2>Пироги</h2>
+        </header>
+        <div class="scroll">
+          <div class="grid-rows">
+            <button type="button" class="list-row" data-nav="product" data-product="pieApple">
+              <img class="row-thumb" src="https://1s4oyld5dc.ucarecd.net/b078ccea-d00f-492b-8517-7d88fa7448eb/" alt="" loading="lazy" />
+              <span class="row-text">Яблочный пирог</span>
+              <span class="row-meta">350 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="pieCherry">
+              <img class="row-thumb" src="https://https://1s4oyld5dc.ucarecd.net/05049b5b-bb33-43a7-98c3-7a81a05ce174/" alt="" loading="lazy" />
+              <span class="row-text">Вишнёвый пирог</span>
+              <span class="row-meta">380 р.</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- СЛОЙКИ -->
+      <section class="screen" id="screen-puffSection" aria-label="Слойки">
+        <header class="page-head">
+          <button type="button" class="icon-btn" data-back="bakery" aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <h2>Слойки</h2>
+        </header>
+        <div class="scroll">
+          <div class="grid-rows">
+            <button type="button" class="list-row" data-nav="product" data-product="puffApple">
+              <img class="row-thumb" src="https://1s4oyld5dc.ucarecd.net/04df4b51-2ed0-430d-96a6-38edbdadeba4/" alt="" loading="lazy" />
+              <span class="row-text">Слойка с яблоком</span>
+              <span class="row-meta">90 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="puffCheese">
+              <img class="row-thumb" src="https://1s4oyld5dc.ucarecd.net/f72a5ab7-fdd2-4f2f-814f-2caf39c9dca1/" alt="" loading="lazy" />
+              <span class="row-text">Слойка с сыром</span>
+              <span class="row-meta">100 р.</span>
+            </button>
+            <button type="button" class="list-row" data-nav="product" data-product="puffHam">
+              <img class="row-thumb" src="https://1s4oyld5dc.ucarecd.net/80d1f4f8-c2ad-41be-b8c3-550bf8fa7ee5/" alt="" loading="lazy" />
+              <span class="row-text">Слойка с ветчиной</span>
+              <span class="row-meta">120 р.</span>
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Карточка товара -->
+      <section class="screen" id="screen-product" aria-label="Товар">
+        <header class="page-head">
+          <button type="button" class="icon-btn" id="productBackBtn" aria-label="Назад">
+            <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+              <path d="M15 6l-6 6 6 6" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <h2 id="productHeadTitle">Товар</h2>
+        </header>
+        <div class="scroll">
+          <div class="product-layout">
+            <img class="hero-img" id="productImg" src="" alt="" loading="lazy" />
+            <div class="detail-body">
+              <h3 id="productTitle"></h3>
+              <p id="productDesc"></p>
+              <div class="detail-actions">
+                <span class="price-tag" id="productPrice"></span>
+                <button type="button" class="btn-cart" id="addToCartBtn">Добавить в корзину</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Профиль -->
+      <section class="screen" id="screen-profile" aria-label="Профиль">
+        <header class="page-head page-head--center">
+          <h2>Профиль</h2>
+        </header>
+        <div class="scroll">
+          <div class="profile-wrap">
+            <img class="profile-avatar" src="https://images.unsplash.com/photo-1514888286974-6c03e2ca1dba?w=300&q=80" alt="Аватар" loading="lazy" />
+            <div class="profile-menu">
+              <button type="button" class="profile-row" data-stub="История заказов">
+                <span class="icon" aria-hidden="true">📋</span>
+                История заказов
+              </button>
+              <button type="button" class="profile-row" data-stub="Уведомления">
+                <span class="icon" aria-hidden="true">🔔</span>
+                Уведомления
+              </button>
+              <button type="button" class="profile-row" data-stub="Помощь">
+                <span class="icon" aria-hidden="true">❓</span>
+                Помощь
+              </button>
+              <button type="button" class="profile-row" data-stub="Настройки">
+                <span class="icon" aria-hidden="true">⚙️</span>
+                Настройки
+              </button>
+              <button type="button" class="profile-row" data-stub="Выход из демо">
+                <span class="icon" aria-hidden="true">🚪</span>
+                Выйти из аккаунта
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Поиск -->
+      <section class="screen" id="screen-search" aria-label="Поиск">
+        <header class="page-head page-head--center">
+          <h2>Поиск</h2>
+        </header>
+        <div class="scroll">
+          <div class="search-panel">
+            <label class="search-label" for="searchInput">Найти товар или раздел</label>
+            <input
+              id="searchInput"
+              class="search-field"
+              type="search"
+              placeholder="Например: безе, яблоки, грибы, выпечка…"
+              autocomplete="off"
+              spellcheck="false"
+            />
+            <p class="search-hint" id="searchHint">Введите запрос или выберите из подсказок ниже.</p>
+            <div id="searchResults" class="search-results" role="listbox" aria-label="Результаты поиска"></div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Корзина -->
+      <section class="screen" id="screen-cart" aria-label="Корзина">
+        <header class="page-head page-head--center">
+          <h2>Корзина</h2>
+        </header>
+        <div class="scroll" id="cartScroll"></div>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script>
+    "use strict";
